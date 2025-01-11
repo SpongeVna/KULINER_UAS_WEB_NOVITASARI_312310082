@@ -26,10 +26,8 @@ Untuk menggunakan file ini, pastikan Anda memiliki:
 Untuk mendapatkan file ini, Anda dapat meng-clone repository dengan perintah berikut:
 
 ```bash
-git clone [URL_REPOSITORY]
+git clone https://github.com/SpongeVna/KULINER_UAS_WEB_NOVITASARI_312310082.git
 ```
-
-Ganti `[URL_REPOSITORY]` dengan URL repository GitHub Anda.
 
 ## Cara Menggunakan
 
