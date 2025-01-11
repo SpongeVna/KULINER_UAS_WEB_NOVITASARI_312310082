@@ -29,12 +29,12 @@ Ikuti langkah-langkah di bawah untuk menjalankan proyek ini secara lokal:
 
 ### 1. Clone Repository
 ```bash
- git clone https://github.com/username/databe-kuliner.git
+ git clone https://github.com/SpongeVna/KULINER_UAS_WEB_NOVITASARI_312310082.git
 ```
 
 ### 2. Masuk ke Direktori Proyek
 ```bash
- cd databe-kuliner
+ cd db_kuliner
 ```
 
 ### 3. Instalasi Dependensi
