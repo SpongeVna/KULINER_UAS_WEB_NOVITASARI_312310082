@@ -1,90 +1,54 @@
-# 🍲 KULINER
+# Database Kuliner
 
-Databe Kuliner adalah platform yang menyediakan data kuliner dari berbagai daerah di Indonesia. Kami bertujuan untuk mendokumentasikan, mempromosikan, dan melestarikan keanekaragaman kuliner Indonesia. Dengan proyek ini, pengguna dapat menjelajahi resep, cerita di balik makanan, hingga data restoran lokal.
+File ini berisi dump SQL untuk database yang berhubungan dengan data kuliner. Database ini dapat digunakan untuk mengelola informasi terkait kuliner, seperti restoran, menu, atau kategori makanan.
 
----
+## Struktur Database
 
-## 🔍 Fitur Utama
+Struktur database berikut mencakup tabel-tabel utama yang ada dalam file SQL ini:
 
-- **Database Resep**: Resep makanan tradisional dan modern dari berbagai daerah.
-- **Rekomendasi Kuliner Lokal**: Informasi restoran dan tempat makan terbaik di setiap kota.
-- **Cerita Budaya**: Kisah di balik makanan khas yang kaya akan budaya dan sejarah.
-- **Pencarian Cerdas**: Temukan kuliner berdasarkan bahan, lokasi, atau nama makanan.
+- **Tabel 1**: [Nama Tabel]  
+  Deskripsi tabel dan kolomnya.
+- **Tabel 2**: [Nama Tabel]  
+  Deskripsi tabel dan kolomnya.
+- Tambahkan sesuai jumlah tabel.
 
----
+*(Detail tabel dapat diperinci setelah analisis mendalam pada file SQL)*
 
-## 🌐 Teknologi yang Digunakan
+## Prasyarat
 
-- **Frontend**: React.js, Tailwind CSS
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **API**: OpenAPI Specification untuk integrasi data
-- **Hosting**: Vercel (Frontend) & Heroku (Backend)
+Untuk menggunakan file ini, pastikan Anda memiliki:
 
----
+- Server database MariaDB atau MySQL
+- Akses ke phpMyAdmin (opsional) atau alat lain untuk mengimpor file SQL
 
-## 🚀 Cara Memulai
+## Cara Menggunakan
 
-Ikuti langkah-langkah di bawah untuk menjalankan proyek ini secara lokal:
+1. Pastikan server database Anda aktif.
+2. Impor file SQL ini menggunakan perintah berikut di terminal atau antarmuka database:
 
-### 1. Clone Repository
-```bash
- git clone https://github.com/SpongeVna/KULINER_UAS_WEB_NOVITASARI_312310082.git
-```
+   ```bash
+   mysql -u [username] -p [nama_database] < db_kuliner.sql
+   ```
 
-### 2. Masuk ke Direktori Proyek
-```bash
- cd db_kuliner
-```
+   Ganti `[username]` dengan nama pengguna database Anda, dan `[nama_database]` dengan nama database yang ingin Anda gunakan.
 
-### 3. Instalasi Dependensi
-```bash
- npm install
-```
+3. Setelah impor berhasil, Anda dapat menjalankan query untuk mengelola data.
 
-### 4. Konfigurasi Environment
-Buat file `.env` di root proyek dan tambahkan konfigurasi berikut:
-```
-MONGO_URI=<URL_DATABASE>
-API_KEY=<KEY_API>
-PORT=5000
-```
+## Catatan
 
-### 5. Jalankan Aplikasi
-```bash
- npm start
-```
-Akses aplikasi di [http://localhost:5000](http://localhost:5000).
+- File SQL ini dibuat menggunakan phpMyAdmin versi 5.2.0 dan kompatibel dengan MariaDB versi 10.4.24.
+- Pastikan Anda telah membuat backup database sebelum mengimpor.
 
----
+## Kontribusi
 
-## 🔧 Kontribusi
+Jika Anda ingin menambahkan atau memperbarui data, silakan buat pull request. Pastikan Anda mengikuti standar penulisan SQL yang konsisten.
 
-Kami sangat terbuka untuk kontribusi dari komunitas! Berikut adalah langkah-langkah untuk berkontribusi:
+## Lisensi
 
-1. Fork repository ini.
-2. Buat branch baru untuk fitur atau perbaikan Anda: `git checkout -b fitur-baru`.
-3. Commit perubahan Anda: `git commit -m 'Menambahkan fitur baru'`.
-4. Push ke branch Anda: `git push origin fitur-baru`.
-5. Buat pull request ke branch `main` kami.
+Proyek ini dilisensikan di bawah [NOVITASARI License].
 
----
 
-## 📢 Lisensi
-
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
-
----
-
-## 📊 Statistik Proyek
-
-![GitHub Repo Stars](https://img.shields.io/github/stars/username/databe-kuliner?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/username/databe-kuliner?style=social)
-![GitHub Issues](https://img.shields.io/github/issues/username/databe-kuliner)
-
----
-
-## 🛍️ Kontak
+## Kontak
 
 Untuk pertanyaan lebih lanjut, silakan hubungi kami:
 
