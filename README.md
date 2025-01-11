@@ -21,6 +21,16 @@ Untuk menggunakan file ini, pastikan Anda memiliki:
 - Server database MariaDB atau MySQL
 - Akses ke phpMyAdmin (opsional) atau alat lain untuk mengimpor file SQL
 
+## Clone Repository
+
+Untuk mendapatkan file ini, Anda dapat meng-clone repository dengan perintah berikut:
+
+```bash
+git clone [URL_REPOSITORY]
+```
+
+Ganti `[URL_REPOSITORY]` dengan URL repository GitHub Anda.
+
 ## Cara Menggunakan
 
 1. Pastikan server database Anda aktif.
@@ -46,17 +56,4 @@ Jika Anda ingin menambahkan atau memperbarui data, silakan buat pull request. Pa
 ## Lisensi
 
 Proyek ini dilisensikan di bawah [NOVITASARI License].
-
-
-## Kontak
-
-Untuk pertanyaan lebih lanjut, silakan hubungi kami:
-
-- Email: info@databekuliner.com
-- Instagram: [@databekuliner](https://instagram.com/databekuliner)
-- Website: [www.databekuliner.com](http://www.databekuliner.com)
-
----
-
-Terima kasih telah mendukung upaya kami dalam melestarikan kuliner Indonesia! 🇮🇩
 
