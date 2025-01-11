@@ -51,6 +51,18 @@ git clone https://github.com/SpongeVna/KULINER_UAS_WEB_NOVITASARI_312310082.git
 
 Jika Anda ingin menambahkan atau memperbarui data, silakan buat pull request. Pastikan Anda mengikuti standar penulisan SQL yang konsisten.
 
+Kontak dan Sosial Media
+
+Jika Anda memiliki pertanyaan atau memerlukan bantuan, Anda dapat menghubungi kami melalui:
+
+Email: [Nta50372@gmail.com]
+
+LinkedIn: https://www.linkedin.com/in/Novitasari
+
+GitHub: https://github.com/SpongeVna
+
+Instagram: https://instagram.com/_ohnovi
+
 ## Lisensi
 
 Proyek ini dilisensikan di bawah [NOVITASARI License].
